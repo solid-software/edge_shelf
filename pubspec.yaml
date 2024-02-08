@@ -1,0 +1,14 @@
+name: edge_shelf
+description: Utilities for using shelf in Supabase Edge functions.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <=4.0.0'
+
+dependencies:
+  shelf: ^1.4.1
+  supabase_functions: ^0.0.1
+
+dev_dependencies:
+  solid_lints: ^0.1.2
